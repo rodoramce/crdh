@@ -3600,7 +3600,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		padding: 6em 0 2em 0 ;
+		padding: 4em 0 2em 0 ;
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -3696,7 +3696,7 @@ input, select, textarea {
 				}
 
 		#banner.major {
-			height: 100vh;
+			height: 100%;
 			min-height: 30em;
 			max-height: 50em;
 		}
@@ -3788,7 +3788,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 6em 0 2em 0 ;
+				padding: 4em 0 2em 0 ;
 			}
 
 				#banner > .inner .content p br {
