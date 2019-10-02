@@ -4,6 +4,11 @@
 	font-family:'dinpro_reg';
 	src: url('../webfonts/DINPRO.woff')
 }
+
+.banner-subt{
+	margin-bottom: 5vh !important;
+}
+
 /* The Modal (background) */
 .center {
 	display: block;
@@ -1983,7 +1988,6 @@ input, select, textarea {
 		width: -webkit-max-content;
 		width: -ms-max-content;
 		width: max-content;
-		margin-bottom: 2em;
 		justify-content: center;
 	}
 
