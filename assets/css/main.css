@@ -5,6 +5,17 @@
 	src: url('../webfonts/DINPRO.woff')
 }
 
+.subtH3{
+	color: #74dcff;
+}
+
+.columnCounter{
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 1.65;
+	font-size: 4em;
+}
+
 .banner-subt{
 	margin-bottom: 5vh !important;
 }
@@ -3006,7 +3017,7 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.85;
+				opacity: 0.90;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
@@ -3026,7 +3037,7 @@ input, select, textarea {
 			
 
 			.tiles article:hover:before {
-				opacity: 0;
+				opacity: 0.65;
 			}
 
 			.tiles article.is-transitioning {
@@ -3162,7 +3173,7 @@ input, select, textarea {
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 30%;
+				width: 27%;
 			}
 
 				.spotlights > section > .image img {
@@ -3228,11 +3239,11 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .image {
-				width: 40%;
+				width: 27%;
 			}
 
 			.spotlights > section > .content {
-				width: 60%;
+				width: 70%;
 			}
 
 		}
@@ -3240,11 +3251,11 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.spotlights > section > .image {
-				width: 45%;
+				width: 27%;
 			}
 
 			.spotlights > section > .content {
-				width: 55%;
+				width: 70%;
 			}
 
 		}
@@ -5123,7 +5134,7 @@ header#nav ul > li > a {
 }
 
 footer{
-	background: #191d2f;
+	background: #ffffff;
 }
 
 #two, #four{
@@ -5173,7 +5184,7 @@ h2{
 }
 
 .florecimiento-boton{
-	margin-left:33px !important;
+	padding: 0 10% !important;
 }
 
 .boton2{
@@ -5183,6 +5194,7 @@ h2{
 @media screen and (max-width:719px){
 .florecimiento-boton{
 margin-bottom: 30px;
+padding: 10% 5% !important;
 }
 
 .boton2{
@@ -5319,4 +5331,16 @@ justify-content: center;
 		list-style-type: none;
 		border-top: 1px solid rgba(255,255,255,0.2);
 		font-size: 1.5rem;
+	}
+
+	.logosInner{
+		padding: 2em 0 3em 0 !important;
+	}
+
+	.redesyalianzas{
+		color: #242943;
+	}
+
+	.footerLogo:hover{
+		transform: scale(1.1);
 	}
