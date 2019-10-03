@@ -3037,7 +3037,7 @@ input, select, textarea {
 			
 
 			.tiles article:hover:before {
-				opacity: 0.65;
+				opacity: 0.73;
 			}
 
 			.tiles article.is-transitioning {
@@ -5134,7 +5134,9 @@ header#nav ul > li > a {
 }
 
 footer{
-	background: #ffffff;
+	/* background: #ffffff; */
+	background-image: linear-gradient(-355deg, #FFFEFF 0%, rgb(215, 224, 255) 100%);
+	/* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
 }
 
 #two, #four{
@@ -5143,7 +5145,7 @@ footer{
 
 h2{
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 @media screen and (min-width: 1024px){
@@ -5343,4 +5345,28 @@ justify-content: center;
 
 	.footerLogo:hover{
 		transform: scale(1.1);
+	}
+
+	.tiles .areas:nth-child(6n-5):before{
+		background-color: #8d82c4;
+	}
+
+	.tiles .areas:nth-child(6n-4):before{
+		background-color: #e7b788;
+	}
+
+	.tiles .areas:nth-child(6n-3):before{
+		background-color: #87c5a4
+	}
+
+	.tiles .areas:nth-child(6n-2):before{
+		background-color: #8ea9e8;
+	}
+
+	.tiles .accionesIndex:nth-child(6n-5):before{
+		background-color: #8d82c4;
+	}
+
+	.tiles .accionesIndex:nth-child(6n-4):before {
+		background-color: #6fc3df
 	}
