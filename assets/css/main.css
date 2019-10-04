@@ -3131,7 +3131,7 @@ input, select, textarea {
 
 	.contact-method {
 		margin: 0 0 2em 0;
-		padding-left: 3.25em;
+		/* padding-left: 3.25em; */
 		position: relative;
 	}
 
@@ -5135,7 +5135,7 @@ header#nav ul > li > a {
 
 footer{
 	/* background: #ffffff; */
-	background-image: linear-gradient(-355deg, #FFFEFF 0%, rgb(215, 224, 255) 100%);
+	background-image: linear-gradient(0deg, rgb(255, 233, 255) 0%, rgb(215, 224, 255) 100%);
 	/* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
 }
 
@@ -5340,7 +5340,7 @@ justify-content: center;
 	}
 
 	.redesyalianzas{
-		color: #242943;
+		color: #192149;
 	}
 
 	.footerLogo:hover{
@@ -5370,3 +5370,35 @@ justify-content: center;
 	.tiles .accionesIndex:nth-child(6n-4):before {
 		background-color: #6fc3df
 	}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}

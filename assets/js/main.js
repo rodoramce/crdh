@@ -662,13 +662,6 @@ btn4.onclick = function() {
   modal4.style.display = "block";
 };
 
-span5.onclick = function() {
-  modal5.style.display = "none";
-};
-
-btn5.onclick = function() {
-  modal5.style.display = "block";
-};
 
 span6.onclick = function() {
   modal6.style.display = "none";
@@ -686,6 +679,13 @@ btn7.onclick = function() {
   modal7.style.display = "block";
 };
 
+span5.onclick = function() {
+  modal5.style.display = "none";
+};
+
+btn5.onclick = function() {
+  modal5.style.display = "block";
+};
 $(window).load(function() {
   $('.post-module').hover(function() {
     $(this).find('.description').stop().animate({
