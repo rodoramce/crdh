@@ -5402,3 +5402,7 @@ justify-content: center;
         float: left;
     }
 }
+
+.dignidad-banner{
+	background-position: center -60px !important;
+}
