@@ -5409,10 +5409,10 @@ justify-content: center;
 
 .disclaimerContainer {
 	background-color: #212121;
-	font-size: .4em;
+	font-size: .6em;
 	padding: 1.2em;
 	display: flex;
-	text-align:center;
+	text-align:left;
 	
 }
 
