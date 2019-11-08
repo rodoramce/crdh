@@ -584,7 +584,6 @@ function removeSlideInUp4() {
 var modal = document.getElementById("myModal")
 var modal2 = document.getElementById("myModal2")
 var modal3 = document.getElementById("myModal3")
-var modal4 = document.getElementById("modal-florecimiento")
 var modal5 = document.getElementById("modal-florecimiento2")
 var modal6 = document.getElementById("myModal-estructura")
 var modal7 = document.getElementById("myModal-participacion")
@@ -596,7 +595,6 @@ var modal7 = document.getElementById("myModal-participacion")
 var btn = document.getElementById("myBtn")
 var btn2 = document.getElementById("myBtn2")
 var btn3 = document.getElementById("myBtn3")
-var btn4 = document.getElementById("myBtn4")
 var btn5 = document.getElementById("myBtn5")
 var btn6 = document.getElementById("myBtn6")
 var btn7 = document.getElementById("myBtn7")
@@ -608,7 +606,6 @@ var btn7 = document.getElementById("myBtn7")
 var span = document.getElementsByClassName("closeModal")[0]
 var span2 = document.getElementsByClassName("closeModal")[1]
 var span3 = document.getElementsByClassName("closeModal")[2]
-var span4 = document.getElementsByClassName("closeModal")[3]
 var span5 = document.getElementsByClassName("closeModal")[4]
 var span6 = document.getElementsByClassName("closeModal")[5]
 var span7 = document.getElementsByClassName("closeModal")[6]
@@ -627,11 +624,10 @@ span.onclick = function() {
 };
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal4 || event.target == modal5 || event.target == modal6 || event.target == modal7) {
+  if (event.target == modal || event.target == modal2 || event.target == modal3 || event.target == modal5 || event.target == modal6 || event.target == modal7) {
     modal.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
-    modal4.style.display = "none";
     modal5.style.display = "none";
     modal6.style.display = "none";
     modal7.style.display = "none";
@@ -652,14 +648,6 @@ span3.onclick = function() {
 
 btn3.onclick = function() {
   modal3.style.display = "block";
-};
-
-span4.onclick = function() {
-  modal4.style.display = "none";
-};
-
-btn4.onclick = function() {
-  modal4.style.display = "block";
 };
 
 

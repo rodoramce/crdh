@@ -1,8 +1,41 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @font-face{
 	font-family:'dinpro_reg';
 	src: url('../webfonts/DINPRO.woff')
+}
+
+@font-face{
+	font-family: "beachSociety";
+	src: url('../webfonts/Beach\ Society\ Light.ttf');
+}
+
+.impulsaFont{
+	font-family: 'beachSociety';
+	text-align: center;
+	margin: auto;
+	display:block;
+	font-size: 2.5em;
+	font-weight: 300;
+	color: #941682;
+}
+
+.blackText{
+	color: black;
+}
+
+.comite{
+list-style-type: none;
+font-size: .8em;
+}
+
+.comite > li {
+	margin: 10px;
+}
+
+.pilaresbg{
+	background-color: #242943 !important;
 }
 
 .subtH3{
@@ -18,6 +51,10 @@
 
 .banner-subt{
 	margin-bottom: 5vh !important;
+	font-family: 'Roboto', sans-serif;
+	text-transform: none !important;
+	font-weight: 600 !important;
+
 }
 
 /* The Modal (background) */
@@ -228,6 +265,7 @@
 */
 .sub-art, .sub-art2, .sub-art3, .sub-art4{
 	display:none;
+	text-transform: none !important;
 }
 
 
@@ -2019,7 +2057,7 @@ input, select, textarea {
 		header.major > p {
 			font-size: 0.7em;
 			font-weight: 600;
-			letter-spacing: 0.25em;
+			/* letter-spacing: 0.25em; */
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
@@ -3017,14 +3055,22 @@ input, select, textarea {
 				display: block;
 				height: 100%;
 				left: 0;
-				opacity: 0.90;
+				opacity: 0.8;
 				position: absolute;
 				width: 100%;
 				z-index: 2;
 			}
 
+			.areas:before{
+				opacity:0.3 !important;
+			}
+
+			.tiles article:hover:before{
+				opacity: 0.8 !important;
+			}
+
 			.tiles article:after{
-				background-color: rgba(36, 41, 67, 0.25);
+				/* background-color: rgba(36, 41, 67, 0.25); */
 				content: '';
 				display: none;
 				height: 100%;
@@ -5154,6 +5200,11 @@ h2{
 		margin: 2px !important;
 	}
 
+	.zonaShero, .premioMujerTec{
+		width:49% !important;
+		margin: 2px !important;
+	}
+
 	.diversidad-sexual, .comite_pcd, .comite_dc, .protocolos-inc, .formacion-capacitacion{
 		width: 23% !important;
 		margin: 2px !important;
@@ -5165,18 +5216,13 @@ h2{
 	}
 
 	.violencia-de-genero{
-		width: 39% !important;
-		margin: 2px !important;
+		width: 30% !important;
+		margin: 5px !important;
 	}
 
 	.plan-de-genero, .impulsa{
-		width: 29% !important;
-		margin: 2px !important;
-	}
-
-	.heforshe, .zona-shero{
-		width: 48.60% !important;
-		margin: 2px !important;
+		width: 30% !important;
+		margin: 5px !important;
 	}
 
 	.reporte-inclusion, .protocolos-inclusion, .comites{
@@ -5266,7 +5312,7 @@ justify-content: center;
 	align-items: center;
 	padding: 12px 0;
 	box-sizing: border-box;
-	font-size:1.5rem;
+	font-size:2.5rem;
 	margin-left:15px;
   }
 
@@ -5433,4 +5479,8 @@ justify-content: center;
 	margin: 2em 1em 1em 3em;
 	display: flex;
 	justify-content: flex-end;
+}
+
+.florecimiento{
+	background-color: white !important;
 }
