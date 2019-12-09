@@ -2493,6 +2493,8 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		width: 27%;
+		height: 27%;
 	}
 
 		.image img {
@@ -5373,7 +5375,7 @@ justify-content: center;
 	align-items: center;
 	padding: 12px 0;
 	box-sizing: border-box;
-	font-size:2.5rem;
+	font-size:1.5rem;
 	margin-left:15px;
   }
 
@@ -5382,7 +5384,7 @@ justify-content: center;
   /* Element counter */
   .numbers-list::before {
 	  content: counters(index, ".", decimal-leading-zero);
-	  font-size: 4.5rem;
+	  font-size: 2.5rem;
 	  text-align: right;
 	  font-weight: bold;
 	  min-width: 50px;
