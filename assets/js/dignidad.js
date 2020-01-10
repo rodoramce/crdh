@@ -1,18 +1,37 @@
 let modalEmpatia = document.querySelector("#myModal")
 let modalEstructura = document.querySelector('#myModal-estructura')
 let modalRedParticipacion = document.querySelector('#myModal-participacion')
-let closeModal = document.querySelector(".closeModal")
+let closeModal = document.querySelectorAll('.closeModal')
 let myBtnEstructura = document.querySelector('#myBtn6')
 let myBtnEmpatia = document.querySelector('#myBtn')
 let myBtnRedParticipacion = document.querySelector('#myBtn7')
 
 
 // When the user clicks on <span> (x), close the modal
-closeModal.onclick = () => {
-    modalEmpatia.style.display = "none";
-    modalEstructura.style.display ="none";
-    modalRedParticipacion.style.display = "none";
-}
+myBtnEstructura.addEventListener('click' , () => {
+  modalEstructura.style.display = 'block';
+})
+
+myBtnEmpatia.addEventListener('click', () => {
+  modalEmpatia.style.display = 'block';
+})
+
+myBtnRedParticipacion.addEventListener('click', () => {
+  modalRedParticipacion.style.display = 'block';
+})
+
+closeModal[0].addEventListener('click',() => {
+  modalEstructura.style.display = 'none';
+})
+
+closeModal[1].addEventListener('click', () => {
+  modalRedParticipacion.style.display = 'none';
+})
+
+closeModal[2].addEventListener('click', () => {
+  modalEmpatia.style.display = 'none';
+})
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = (event) => {
   if (event.target === modalEmpatia ) {
@@ -27,15 +46,3 @@ window.onclick = (event) => {
     modalRedParticipacion.style.display = "none";
   }
 };
-
-myBtnEstructura.onclick = () => {
-  modalEstructura.style.display = "block";
-};
-
-myBtnEmpatia.onclick = () => {
-  modalEmpatia.style.display = "block";
-}
-
-myBtnRedParticipacion.onclick = () => {
-  modalRedParticipacion.style.display = "block";
-}

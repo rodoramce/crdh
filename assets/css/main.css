@@ -5471,10 +5471,10 @@ justify-content: center;
 	.tiles .areas:nth-child(6n-2):before{
 		background-color: #8ea9e8;
 	}
-
+/* 
 	.tiles .accionesIndex:nth-child(6n-5):before{
 		background-color: #8d82c4;
-	}
+	} */
 
 	.tiles .accionesIndex:nth-child(6n-4):before {
 		background-color: #6fc3df
@@ -5546,4 +5546,39 @@ justify-content: center;
 
 .florecimiento{
 	background-color: white !important;
+}
+
+@media (width: 1024px) and (height:1366px) {
+	.innovacionValor {
+		width: 150px;
+		height: auto;
+	}
+
+	.integridadValor {
+		width: 150px;
+		height: auto;
+	}
+
+	.empatiaValor {
+		width: 150px;
+		height: auto;
+	}
+
+	.colaboracionValor {
+		width: 150px;
+		height: auto;
+	}
+
+	.ciudadaniaValor {
+		width: 150px;
+		height: auto;
+	}
+
+	.separacionColumnasValores{ 
+		margin: 0 !important;
+	}
+}
+
+.separacionColumnasValores{
+margin: 2em 1em;
 }
