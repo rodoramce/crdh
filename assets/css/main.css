@@ -5138,7 +5138,7 @@ header#nav ul > li > a:hover {
 		display: block;
 		color: #fff;
 		font-weight: lighter;
-		font-size:8px;
+		font-size:7.5px;
 		text-transform: uppercase;
 		text-decoration: none;
 		border-bottom: 2px solid transparent;
@@ -5156,7 +5156,7 @@ header#nav ul > li > a:hover {
 		display: block;
 		color: #fff;
 		font-weight: lighter;
-		font-size:9px;
+		font-size:8px;
 		text-transform: uppercase;
 		text-decoration: none;
 		border-bottom: 2px solid transparent;
@@ -5173,7 +5173,7 @@ header#nav ul > li > a {
 	display: block;
 	color: #fff;
 	font-weight: lighter;
-	font-size: 10px;
+	font-size: 9px;
 	text-transform: uppercase;
 	text-decoration: none;
 	border-bottom: 2px solid transparent;
@@ -5215,7 +5215,7 @@ header#nav ul > li > a {
 		display: block;
 		color: #fff;
 		font-weight: lighter;
-		font-size: 14px;
+		font-size: 12px;
 		text-transform: uppercase;
 		text-decoration: none;
 		border-bottom: 2px solid transparent;
@@ -5548,7 +5548,7 @@ justify-content: center;
 	background-color: white !important;
 }
 
-@media (width: 1024px) and (height:1366px) {
+@media (min-width: 981px) and (max-width: 1280px) {
 	.innovacionValor {
 		width: 150px;
 		height: auto;
@@ -5575,7 +5575,7 @@ justify-content: center;
 	}
 
 	.separacionColumnasValores{ 
-		margin: 0 !important;
+		margin: .3em !important;
 	}
 }
 
