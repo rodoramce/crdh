@@ -120,7 +120,6 @@ font-size: .8em;
 	font-family: 'Roboto', sans-serif;
 	text-transform: none !important;
 	font-weight: 600 !important;
-
 }
 
 /* The Modal (background) */
@@ -128,7 +127,8 @@ font-size: .8em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 50%;
+	overflow: auto;
   }
   
 .disabled {
@@ -160,12 +160,12 @@ font-size: .8em;
   /* Modal Content/Box */
   .modal-content {
 	background-color: #fefefe;
-	margin: 7% auto; /* 15% from the top and centered */
-	padding-right: 20px;
+	margin: 15% auto; /* 15% from the top and centered */
+	/* padding-right: 20px; */
 	border: 1px solid #888;
 	width: 60%; /* Could be more or less, depending on screen size */
 	color:black;
-	padding: 30px;
+	/* padding: 30px; */
   }
   
   /* The Close Button */
@@ -2851,7 +2851,7 @@ input, select, textarea {
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.8em;
+		font-size: 0.6em;
 		font-weight: 600;
 		height: 3.5em;
 		letter-spacing: 0.25em;
@@ -3947,12 +3947,15 @@ input, select, textarea {
 				width: calc(100% - 6em);
 			}
 
+			
+
 				@media screen and (max-width: 736px) {
 
 					#main > * > .inner {
 						padding: 3em 0 1em 0 ;
 						width: calc(100% - 3em);
 					}
+
 
 				}
 
