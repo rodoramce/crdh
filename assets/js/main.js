@@ -451,26 +451,6 @@ function removeSlideInUp4() {
     });
 })(jQuery);
 
-
-const modalDialogosAbiertos = document.querySelector('#myModal2');
-const dialogosAbiertosImg = document.querySelector('#dialogosAbiertosImg');
-const closeModalDA = document.querySelector('#closeModalDA');
-
-dialogosAbiertosImg.addEventListener('click' ,() => {
-  modalDialogosAbiertos.style.display = 'block';
-})
-
-closeModalDA.addEventListener('click',  () => {
-  modalDialogosAbiertos.style.display = 'none';
-})
-
-window.onclick = (event) => {
-  if (event.target == modalDialogosAbiertos) {
-    modalDialogosAbiertos.style.display = 'none';
-  }
-}
-
-
 $(window).load(function() {
   $('.post-module').hover(function() {
     $(this).find('.description').stop().animate({

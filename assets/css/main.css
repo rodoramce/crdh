@@ -127,7 +127,7 @@ font-size: .8em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+	/* width: 50%; */
 	overflow: auto;
   }
   
@@ -3750,7 +3750,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #24294359;
+			background-color: #252b3bb9;
 			content: '';
 			display: block;
 			height: 100%;
@@ -5585,3 +5585,12 @@ justify-content: center;
 .separacionColumnasValores{
 margin: 2em 1em;
 }
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner-img{
+	  width: 100% !important;
+	  height: 100% !important;
+  }
+	
+  }
