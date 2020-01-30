@@ -5594,3 +5594,62 @@ margin: 2em 1em;
   }
 	
   }
+
+  @media (min-width: 320px) and (max-width: 980px) and (orientation: landscape) {
+  
+	#myBt{
+		width: 50% !important;
+		margin: 0 !important;
+	}
+
+	#myBtn2{
+		width: 49% !important;
+		margin: 0 !important;
+	}
+
+	#myBtnFundamentosDH{
+		width: 33% !important;
+		margin: 0 !important;
+	}
+
+	#myBtn3{
+		width: 33% !important;
+		margin: 0 !important;
+	}
+
+	#myBtnFormyCapDH{
+		width: 33% !important;
+		margin: 0 !important;
+	}
+	
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+	#myBt{
+		width: 50% !important;
+		margin: 0 !important;
+	}
+
+	#myBtn2{
+		width: 49% !important;
+		margin: 0 !important;
+	}
+
+	#myBtnFundamentosDH{
+		width: 33% !important;
+		margin: 0 !important;
+	}
+
+	#myBtn3{
+		width: 33% !important;
+		margin: 0 !important;
+	}
+
+	#myBtnFormyCapDH{
+		width: 33% !important;
+		margin: 0 !important;
+	}
+	
+  }
+  
